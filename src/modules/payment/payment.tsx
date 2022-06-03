@@ -47,6 +47,7 @@ export const Payment: React.FC = () => {
           razorpayOrderId: response.razorpay_order_id,
           razorpaySignature: response.razorpay_signature,
         };
+        console.log(data);
       },
       prefill: {
         name: "Ravinder Singh",
