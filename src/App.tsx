@@ -5,7 +5,6 @@ import { Route, Routes } from "react-router-dom";
 import { Payment } from "./modules/payment/payment";
 import { Chat } from "./modules/chat/chat";
 
-
 function App() {
   return (
     <div>
