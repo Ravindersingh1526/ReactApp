@@ -8,6 +8,7 @@ import { Chat } from "./modules/chat/chat";
 function App() {
   return (
     <div>
+      <h1>EST</h1>T
       <Routes>
         <Route path="/payment" element={<Payment/>} />
         <Route path="/chat" element={<Chat/>} />
