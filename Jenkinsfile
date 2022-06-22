@@ -6,6 +6,11 @@ pipeline {
         }
     }
     stages {
+        stage("Hello"){
+            steps {
+               echo 'Hello'
+            }
+        }
         stage("Install Packages"){
             steps {
                 sh "npm install"
